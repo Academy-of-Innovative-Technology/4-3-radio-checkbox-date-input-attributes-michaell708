@@ -10,45 +10,45 @@
 
     <form>
         <!-- Step 1-->
-        Your Name:
-        <input type="text">
+        <label>Your Name:</label>
+        <input type="text" id="name">
         <br><br>
 
         <!-- Grade Level -->
         <p>Grade Level:</p>
-        <input name="grade" value="Freshman">
+        <input name="grade" value="Freshman" type="radio" id="freshman">
         Freshman
       <br>
 
-        <input name="grade" value="Sophomore">
+        <input name="grade" value="Sophomore" type="radio" id="sophomore">
        Sophomore
       <br>
 
-        <input name="grade" value="Junior">
+        <input name="grade" value="Junior" type="radio" id="junior">
         Junior
       <br>
 
-        <input name="grade" value="Senior">
+        <input name="grade" value="Senior" type="radio" id="senior">
         Senior
       <br><br>
 
         <!-- Interests -->
         <p>Interests:</p>
-        <input value="Sports">
+        <input value="Sports" type="checkbox" id="sports">
         Sports
       <br>
 
-        <input  value="Music">
+        <input  value="Music" type="checkbox" id="music">
         Music
       <br>
 
-        <input value="Coding">
+        <input value="Coding" type="checkbox" id="coding">
         Coding
       <br><br>
 
         <!-- Birthday -->
         <label for="birthday">Birthday:</label>
-        <input id="birthday">
+        <input id="birthday" type="date">
         <br><br>
 
         <button type="button" onclick="showProfile()">Submit</button>
